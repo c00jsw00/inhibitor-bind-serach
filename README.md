@@ -9,3 +9,9 @@ molecular docking and gamd simulation for non-competive inhibitor
 7. mamba install -c conda-forge openmm cudatoolkit=11.7
 8. wget https://ccsb.scripps.edu/download/532/ (MGLTools)
 9. mamba install -c conda-forge jupyterlab
+10. git clone https://github.com/QVina/qvina.git and cp qvina-w to xx/mambaforge/bin/
+11. git clone https://github.com/MiaoLab20/gamd-openmm.git
+    cd gamd-openmm
+    setup.py install
+    cp  gamdRunner to  xx/mambaforge/bin/
+12.
