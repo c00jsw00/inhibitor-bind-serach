@@ -5,6 +5,6 @@ molecular docking and gamd simulation for non-competive inhibitor
 3. mamba install openbabel
 4. pip install py3Dmol
 5. mamba install ambertools
-6. mamba install -c bioconda mgltools
-NO 7. mamba install -c conda-forge mdtraj
+6. mamba install -c bioconda mgltools ---no install
+7. mamba install -c conda-forge mdtraj
 8. mamba install -c conda-forge openmm cudatoolkit=11.7
